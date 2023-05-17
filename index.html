@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="Vector.png" alt="Logo Alura"></h1>
+    </header>
+    <main>
+        <section class="section1">
+            <textarea type="text" id="caixa_principal" style="resize: none" placeholder="Digite seu texto" autofocus
+                onclick='imgDisplayBlock()'></textarea>
+        </section>
+        <section class="section2">
+            <textarea type="text" class="caixa_secundaria" style="resize: none" onclick='imgDisplayNone()'></textarea>
+            <div id="div_img">
+                <img class="imgplaceholder" id="bonecao" src="High quality products 1 1.png"
+                    alt="Imagem do0 placeHolder">
+                <img class="imgplaceholder" id="mensagem" src="Frame 5.png" alt="Nenhuma mensagem encontrada">
+            </div>
+        </section>
+
+        <div class="div_aviso">
+            <p class="aviso">Apenas letras minúsculas e sem acento.
+            <p>
+        </div>
+
+        <div class="buttons">
+            <button class="crip" name="criptografar" onclick='btnCrip()'>Criptografar</button>
+            <button class="descrip" name="Descriptografar" onclick='btnDecrip()'>Descriptografar</button>
+            <button class="copiar" name="Copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
