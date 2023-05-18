@@ -121,6 +121,8 @@ button {
     border-style: solid;
     border-radius: 20px;
     border-color:#0A3871;
+
+    cursor: pointer;
 }
 .crip {
     margin-right: 1.6%;
