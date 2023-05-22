@@ -92,17 +92,18 @@ section {
     top: 440px;
 }
 
-.aviso{
+.aviso {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
 
-    color: #495057;
+    color: #343A40;
     opacity: 0.8;
 }
-.aviso:before{
+
+.aviso:before {
     content: "⚠ ";
 }
 
@@ -117,25 +118,27 @@ button {
     height: 50px;
     padding: 15px;
 
-    border:1px;
+    border: 1px;
     border-style: solid;
     border-radius: 20px;
-    border-color:#0A3871;
+    border-color: #0A3871;
 
     cursor: pointer;
 }
+
 .crip {
     margin-right: 1.6%;
     background-color: #0A3871;
-    color:#E5E5E5;
+    color: #E5E5E5;
 }
 
 .descrip {
     margin-right: 6.9%;
     background-color: #E5E5E5;
-    color:#0A3871;
+    color: #0A3871;
 }
+
 .copiar {
     background-color: #E5E5E5;
-    color:#0A3871;
+    color: #0A3871;
 }

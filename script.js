@@ -26,13 +26,6 @@ function btnDecrip() {
 function copiar() {
     txt_secundario.select()
     document.execCommand("copy")
-
-    if ((txt_secundario.value) != "") {
-        divImg.style.display = "none"
-    } else {
-        divImg.style.display = "block"
-    }
-
     txt_principal.select()
 }
 
